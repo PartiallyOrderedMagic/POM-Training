@@ -13,6 +13,6 @@ public class DirectionPanel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(Screen.width, Screen.height, 0);
+        transform.position = new Vector3(Screen.width * 0.2f, Screen.height * 0.2f, 0);
     }
 }
